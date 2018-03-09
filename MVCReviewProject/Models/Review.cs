@@ -30,7 +30,6 @@ namespace MVCReviewProject.Models
 
         [ForeignKey("Category"), Display(Name = "Category")]
         public int CategoryID { get; set; }
-
         public virtual Category Category { get; set; }
     }
 }

@@ -12,7 +12,7 @@ namespace MVCReviewProject.Controllers
 {
     public class CategoriesController : Controller
     {
-        private MVCCategoryProjectContext db = new MVCCategoryProjectContext();
+        private MVCReviewProjectContext db = new MVCReviewProjectContext();
 
         // GET: Categories
         public ActionResult Index()
